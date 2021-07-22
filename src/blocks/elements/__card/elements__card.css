@@ -1,0 +1,12 @@
+.elements__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 282px;
+    height: 361px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}

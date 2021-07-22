@@ -1,0 +1,30 @@
+/* .profile__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 27.8%;
+    max-width: 336px;
+}
+
+@media screen and (max-width: 1023px) {
+    .profile__info {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
+
+
+.profile__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__info {
+        flex-direction: row;
+        width: 100%;
+    }
+}

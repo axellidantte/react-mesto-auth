@@ -1,0 +1,14 @@
+.pop-up-img__close {
+display: block;
+  position: absolute;
+  background: url("../../../images/profile__pop-up-exit-button.png") 100% 100% no-repeat;
+  background-position: center;
+  width: 26px;
+  height: 26px;
+  right: 4px;
+  top: -45px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}

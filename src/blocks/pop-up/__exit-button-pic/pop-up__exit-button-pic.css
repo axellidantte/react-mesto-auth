@@ -1,0 +1,12 @@
+.pop-up__exit-button-pic {
+    transform: rotate(45deg);
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .pop-up__exit-button-pic {
+        width: 26px;
+        height: 26px;
+    }
+}
