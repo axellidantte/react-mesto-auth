@@ -30,8 +30,8 @@ function Main(props) {
                             card={card}
                             key={card._id}
                             onCardClick={props.onCardClick}
-                            onCardDelete={props.handleCardDelete}
-                            onCardLike={props.handleCardLike}
+                            onCardDelete={props.onCardDelete}
+                            onCardLike={props.onCardLike}
                         />
                     ))}
                 </div>

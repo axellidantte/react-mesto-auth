@@ -3,6 +3,8 @@
     min-height: 74px;
     margin: 45px auto 40px;
     border-bottom: 1px solid #545454;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1023px) {
