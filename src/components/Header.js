@@ -7,7 +7,7 @@ function Header(props) {
 
   return (
     <header className="header">
-      <img className="header__logo" src={headerLogo} alt="логотип" />
+      <img className="header__logo" src={headerLogo} alt="Логотип" />
 
       {location.pathname === "/" && (
         <div className="header__logged">
